@@ -1,6 +1,4 @@
-<template>
-  <h1>官网的vue3文档-训练</h1>
-</template>
+<template></template>
 
 <script setup lang="ts"></script>
 
