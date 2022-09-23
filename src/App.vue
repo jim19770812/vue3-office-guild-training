@@ -17,6 +17,7 @@ import { RouterView } from "vue-router";
       <router-link to="/training-07">07.最佳实践</router-link>
       <router-link to="/training-08">08.TypeScript</router-link>
       <router-link to="/training-09">09.进阶主题</router-link>
+      <router-link to="/training-10-01">10.1.API练习</router-link>
     </div>
     <div class="app-content">
       <RouterView />
@@ -72,7 +73,7 @@ import { RouterView } from "vue-router";
   color: coral;
 }
 
-.app .red {
+.red {
   color: red;
 }
 

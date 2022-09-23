@@ -11,6 +11,8 @@ import Training06 from '../views/Training06-应用规模化.vue'
 import Training07 from '../views/Training07-最佳实践.vue'
 import Training08 from '../views/Training08-TypeScript.vue'
 import Training09 from '../views/Training09-进阶主题.vue'
+import Training10_01 from '../views/Training10-01-API练习.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -74,6 +76,11 @@ const router = createRouter({
       path: '/training-09',
       name: '09.进阶主题',
       component: Training09
+    },
+    {
+      path: '/training-10-01',
+      name: "10.1.API练习",
+      component: Training10_01
     }
   ]
 })
